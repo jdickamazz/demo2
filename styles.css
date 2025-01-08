@@ -21,8 +21,12 @@ body {
     align-items: center;       /* Center the content horizontally */
     width: 100%;               /* Take full width but with constraints */
     max-width: 800px;         /* Max width of the box */
-    padding: 20px;             /* Add padding around the box */
     margin: auto;
+    padding: 30px;             /* Add padding around the box */
+    border: 1px solid #ccc;   /* Border around the box */
+    border-radius: 10px;      /* Optional: rounded corners */
+    background-color: #ffffff; /* White background for the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow around the box */
 }
 
 
@@ -109,6 +113,16 @@ nav a.active {
     border-radius: 5%;
     margin-left: 10px;
 }
+
+
+
+
+
+
+
+
+
+
 /* .contact-links a {
     margin-right: 10px;
 }
