@@ -50,7 +50,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 nav a.active {
@@ -145,13 +145,13 @@ nav a.active {
 }
 
 .profile-pic {
-    width: 60px;
-    height: 100px;
+    width: 50px;
+    height: 80px;
     border-radius: 10px;
     margin-left: 20px;
 }
 
-.contact-links a {
+/* .contact-links a {
     margin-right: 10px;
 }
 
@@ -174,3 +174,4 @@ nav a.active {
 .currently a:hover {
     text-decoration: underline;
 }
+ */
