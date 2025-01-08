@@ -6,6 +6,21 @@ body {
     padding: 20px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;    /* Stack items vertically */
+    justify-content: flex-start;
+    align-items: center;       /* Center the content horizontally */
+    width: 100%;               /* Take full width but with constraints */
+    max-width: 1200px;         /* Max width of the box */
+    padding: 30px;             /* Add padding around the box */
+    border: 1px solid #ccc;   /* Border around the box */
+    border-radius: 10px;      /* Optional: rounded corners */
+    background-color: #ffffff; /* White background for the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow around the box */
+}
+
+
 nav {
     display: flex;
     gap: 20px;
@@ -51,10 +66,11 @@ nav a:hover {
     font-size: 24px;
 }
 
+
 .profile-pic img {
     border-radius: 50%;
-    width: 15px;
-    height: 10px;
+    width: 100px;
+    height: 120px;
 }
 
 .currently {
