@@ -1,5 +1,9 @@
 title: "Your Name"
-description: "Your Role or Current Position"
+header_pages:
+  - index.md
+  - cv.md
+  - research.md
+description: "Undergraduate Student at BUET"
 baseurl: "" # leave empty for GitHub Pages
-url: "https://yourusername.github.io"
+url: "https://jdickamazz.github.io"
 theme: theme-jekyll-minima
