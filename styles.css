@@ -20,7 +20,7 @@ body {
     justify-content: flex-start;
     align-items: center;       /* Center the content horizontally */
     width: 100%;               /* Take full width but with constraints */
-    max-width: 400px;         /* Max width of the box */
+    max-width: 800px;         /* Max width of the box */
     padding: 20px;             /* Add padding around the box */
     border: 1px solid #ccc;   /* Border around the box */
     border-radius: 10px;      /* Optional: rounded corners */
