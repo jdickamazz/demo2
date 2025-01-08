@@ -19,9 +19,17 @@ body {
     background-color: #ffffff; /* White background for the box */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow around the box */
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
 
 
-nav {
+/* nav {
     display: flex;
     gap: 20px;
     font-weight: bold;
@@ -37,6 +45,25 @@ nav a {
 nav a:hover {
     text-decoration: underline;
     transform: scale(1.2);
+} */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f9f9e8; /* Matching background color */
+    padding: 10px 0;
+    font-family: "Georgia", serif; /* Or any elegant font */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: normal;
+}
+
+nav a.active {
+    font-weight: bold;
+    text-decoration: underline; /* Optional underline for active */
 }
 
 .container {
@@ -71,6 +98,31 @@ nav a:hover {
     margin-top: 20px;
 }
 
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 5%;
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
 .social-icons {
     display: flex;
     gap: 20px;  /* Space between the social media links */
@@ -100,9 +152,33 @@ nav a:hover {
     transform: scale(1.2);  /* Slight zoom effect on hover */
 }
 
-.profile-pic img {
-    border-radius: 50%;
-    width: 100px;
-    height: 120px;
-    object-fit: cover;
+.profile-pic {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.contact-links a {
+    margin-right: 10px;
+}
+
+.contact-links img {
+    width: 24px;
+    height: 24px;
+}
+
+.currently {
+    margin: 20px 5%;
+    font-family: "Georgia", serif;
+    line-height: 1.5;
+}
+
+.currently a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.currently a:hover {
+    text-decoration: underline;
 }
