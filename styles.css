@@ -19,15 +19,16 @@ body {
 .container {
     display: flex;
     flex-direction: column;    /* Stack items vertically */
-    justify-content: flex-start;
+/*     justify-content: flex-start; */
     align-items: center;       /* Center the content horizontally */
-    width: 100%;               /* Take full width but with constraints */
+/*     width: 100%;               /* Take full width but with constraints */
     max-width: 800;         /* Max width of the box */
-    padding: 30px;             /* Add padding around the box */
-    border: 1px solid #ccc;   /* Border around the box */
-    border-radius: 10px;      /* Optional: rounded corners */
-    background-color: #ffffff; /* White background for the box */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow around the box */
+    padding: 20px;             /* Add padding around the box */
+    margin: auto;
+/*     border: 1px solid #ccc;   /* Border around the box */
+/*     border-radius: 10px;      /* Optional: rounded corners */
+/*     background-color: #ffffff; /* White background for the box */
+/*     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow around the box */
 }
 
 
@@ -117,8 +118,8 @@ nav a.active {
 }
 
 .profile-pic {
-    width: 50px;
-    height: 50px;
+    width: 5px;
+    height: 15px;
     border-radius: 10px;
     margin-left: 10px;
 }
