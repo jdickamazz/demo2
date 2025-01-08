@@ -6,7 +6,7 @@ body {
     padding: 20px;
 }
 
-.container {
+/* .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,25 +14,23 @@ body {
     margin: auto;
     padding: 20px;
 }
+ */
 
-
-/* nav {
+.container {
     display: flex;
-    gap: 20px;
-    font-weight: bold;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
+    flex-direction: column;    /* Stack items vertically */
+    justify-content: flex-start;
+    align-items: center;       /* Center the content horizontally */
+    width: 100%;               /* Take full width but with constraints */
+    max-width: 800;         /* Max width of the box */
+    padding: 30px;             /* Add padding around the box */
+    border: 1px solid #ccc;   /* Border around the box */
+    border-radius: 10px;      /* Optional: rounded corners */
+    background-color: #ffffff; /* White background for the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow around the box */
 }
 
-nav a {
-    text-decoration: none;
-    color: #333;
-}
 
-nav a:hover {
-    text-decoration: underline;
-    transform: scale(1.2);
-} */
 
 nav {
     display: flex;
@@ -45,7 +43,6 @@ nav {
 nav a {
     text-decoration: none;
     color: #333;
-    font-weight: normal;
 }
 
 nav a:hover {
@@ -58,12 +55,16 @@ nav a.active {
     text-decoration: underline; /* Optional underline for active */
 }
 
-.header-container {
+
+
+
+
+/* .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-}
+} */
 
 .info {
     max-width: 60%;
@@ -80,40 +81,11 @@ nav a.active {
     color: #555;
 }
 
-.social-icons a {
+/* .social-icons a {
     margin-right: 10px;
     text-decoration: none;
     font-size: 24px;
-}
-
-.currently {
-    margin-top: 20px;
-}
-
-
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 20px 0;
-    padding: 0 5%;
-}
-
-.header h1 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.header p {
-    font-size: 1.2rem;
-}
-
-
-
-
-
+} */
 
 .social-icons {
     display: flex;
@@ -146,9 +118,17 @@ nav a.active {
 
 .profile-pic {
     width: 50px;
-    height: 80px;
+    height: 50px;
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
+}
+
+.currently {
+    margin-top: 20px;
+}
+
+.news {
+    margin-top: 20px;
 }
 
 /* .contact-links a {
@@ -175,3 +155,21 @@ nav a.active {
     text-decoration: underline;
 }
  */
+
+/* .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 5%;
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+} */
