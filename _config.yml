@@ -6,4 +6,4 @@ header_pages:
 description: "Undergraduate Student at BUET"
 baseurl: "" # leave empty for GitHub Pages
 url: "https://jdickamazz.github.io"
-theme: theme-jekyll-minimal
+theme: minima
