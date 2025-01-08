@@ -6,4 +6,4 @@ permalink: /cv/
 
 # Curriculum Vitae
 
-You can [download my CV here](./files/my_cv.pdf).
+You can [download my CV here](./files/Updated_CV.pdf).
