@@ -53,10 +53,39 @@ nav a:hover {
 
 .profile-pic img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 15px;
+    height: 10px;
 }
 
 .currently {
     margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;  /* Space between the social media links */
+    font-size: 24px;  /* Icon size */
+    padding: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333;  /* Default color */
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0077b5;  /* LinkedIn blue for hover */
+}
+
+.social-icons i {
+    margin-right: 8px;  /* Space between icon and text */
+}
+
+/* Optional: Adjust icon size or hover effects */
+.social-icons a:hover i {
+    transform: scale(1.2);  /* Slight zoom effect on hover */
 }
