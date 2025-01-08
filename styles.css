@@ -36,10 +36,10 @@ nav a:hover {
 
 nav {
     display: flex;
-    justify-content: space-around;
-    background-color: #f9f9e8; /* Matching background color */
-    padding: 10px 0;
-    font-family: "Georgia", serif; /* Or any elegant font */
+    gap: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
 }
 
 nav a {
@@ -48,12 +48,17 @@ nav a {
     font-weight: normal;
 }
 
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
 nav a.active {
     font-weight: bold;
     text-decoration: underline; /* Optional underline for active */
 }
 
-.container {
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
