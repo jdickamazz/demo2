@@ -126,7 +126,21 @@ nav a.active {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow around the box */
 }
 
+.content ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
 
+.content .project {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.content .project img {
+  width: 200px; /* Adjust image width as needed */
+  margin-right: 20px;
+}
 
 
 
