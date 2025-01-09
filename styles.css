@@ -17,7 +17,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;    /* Stack items vertically */
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;       /* Center the content horizontally */
     width: 100%;               /* Take full width but with constraints */
     max-width: 800px;         /* Max width of the box */
