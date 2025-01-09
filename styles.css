@@ -138,7 +138,8 @@ nav a.active {
 }
 
 .content .project img {
-  width: 200px; /* Adjust image width as needed */
+  width: 100px; /* Adjust image width as needed */
+  height: 60px;
   margin-right: 20px;
 }
 
