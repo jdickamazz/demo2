@@ -6,21 +6,6 @@ body {
     padding: 20px;
 }
 
-research.html.content {
-    display: flex;
-    flex-direction: column;    /* Stack items vertically */
-    justify-content: space-between;
-    align-items: center;       /* Center the content horizontally */
-    width: 100%;               /* Take full width but with constraints */
-    max-width: 800px;         /* Max width of the box */
-    margin: auto;
-    padding: 30px;             /* Add padding around the box */
-    border: 1px solid #ccc;   /* Border around the box */
-    border-radius: 10px;      /* Optional: rounded corners */
-    background-color: #ffffff; /* White background for the box */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow around the box */
-}
-
 .container {
     display: flex;
     flex-direction: column;    /* Stack items vertically */
@@ -123,6 +108,23 @@ nav a.active {
     margin-left: 10px;
 }
 
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;    /* Stack items vertically */
+    justify-content: space-between;
+    align-items: center;       /* Center the content horizontally */
+    width: 100%;               /* Take full width but with constraints */
+    max-width: 800px;         /* Max width of the box */
+    margin: auto;
+    padding: 30px;             /* Add padding around the box */
+    border: 1px solid #ccc;   /* Border around the box */
+    border-radius: 10px;      /* Optional: rounded corners */
+    background-color: #ffffff; /* White background for the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow around the box */
+}
 
 
 
